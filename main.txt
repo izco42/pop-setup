@@ -26,3 +26,16 @@
 
 [reemplazar contenido de los archivos de configuracion por los de este repo]
 
+Themas:
+Applications - Graphite
+cursor - pop
+icons - tela-circle-dark 
+shell - Graphite
+
+Extensiones:
+
+Blur my shell
+Disk usage
+Resource monitor 
+Tweaks & Extensions in System Menu 
+User Themes
