@@ -1,0 +1,28 @@
+(1) Instalar kitty:
+    
+    curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+
+(2) Registrar y establecer como terminal por defecto:
+      
+    sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/kitty 50
+
+    sudo update-alternatives --config x-terminal-emulator
+
+(3) Instalar fish shell:
+
+    sudo apt install -y fish
+
+(4) Hacer fish shell por defecto:
+
+    chsh -s /usr/bin/fish
+
+(5) Instalar starship:
+
+    curl -sS https://starship.rs/install.sh | sh
+
+(6) Instalar lsd:
+
+    sudo apt install -y lsd
+
+[reemplazar contenido de los archivos de configuracion por los de este repo]
+
