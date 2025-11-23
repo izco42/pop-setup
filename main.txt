@@ -24,6 +24,21 @@
 
     sudo apt install -y lsd
 
+(7) Fastfetch:
+
+    Ve a:
+    https://github.com/fastfetch-cli/fastfetch/releases/latest
+    
+    Baja el archivo:
+    fastfetch-linux-amd64.deb
+
+    Instálalo:
+    sudo dpkg -i ~/Descargas/fastfetch-linux-amd64.deb
+    sudo apt -f install
+
+    Fastfetch no crea archivo hasta que lo pides:
+    fastfetch --gen-config
+
 [reemplazar contenido de los archivos de configuracion por los de este repo]
 
 Themas:
